@@ -1,9 +1,12 @@
 div{
   margin: auto;
-  max-width: 75%
+  max-width: 50%;
   color: yellow;
   font-size: 35px
 }
 p{
   color: yellow;
+}
+body{
+  background-image: url("./background.png");
 }
