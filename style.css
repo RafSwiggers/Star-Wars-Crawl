@@ -5,15 +5,14 @@ div{
   font-size: 35px;
   letter-spacing: 5px;
   line-height: -15px;
+  transform: rotateX(20deg);
+  border-left: 5px solid yellow;
 }
 p{
   color: yellow;
 }
 body{
   background-image: url("./background.png");
-<<<<<<< HEAD
-=======
   font-family: 'Oswald', sans-serif;
->>>>>>> 8f7e1b548d78d72b626575938726b396f7018f27
   overflow: hidden;
 }
