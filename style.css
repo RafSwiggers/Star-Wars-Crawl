@@ -1,4 +1,9 @@
 div{
   margin: auto;
   max-width: 75%
+  color: yellow;
+  font-size: 25px
+}
+p{
+  color: yellow;
 }
