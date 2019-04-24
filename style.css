@@ -2,12 +2,18 @@ div{
   margin: auto;
   max-width: 50%;
   color: yellow;
-  font-size: 35px
+  font-size: 35px;
+  letter-spacing: 5px;
+  line-height: -15px;
 }
 p{
   color: yellow;
 }
 body{
   background-image: url("./background.png");
+<<<<<<< HEAD
+=======
+  font-family: 'Oswald', sans-serif;
+>>>>>>> 8f7e1b548d78d72b626575938726b396f7018f27
   overflow: hidden;
 }
