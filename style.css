@@ -1,26 +1,19 @@
 body{
   background-image: url("./background.png");
   font-family: "News Gothic";
-}
-p{
+  perspective: 200px;
   color: yellow;
-}
-.panel{
-  
+  text-align: center;
 }
 
 .crawl {
   margin: auto;
-  width: 70%;
-  font-size: 50px;
-  transform: translateY(100%) rotateX(25deg);
-  animation: scroll-up 100S linear;
+  width: 50%;
+  transform: rotateX(30deg);
+  animation: animateCrawl 20s ease-in;
 }
-@keyframes scroll-up{
-  0%{
-    transform: translateY(90%)
-  }
-  100% {
-    transform: translateY(-100%)
-  }
-}
+
+@keyframes animateCrawl {
+  0% { transform: rotateX(30deg) translateY(400px); }
+  100% { transform: rotateX(30deg) translateY(-300px); }
+ }
