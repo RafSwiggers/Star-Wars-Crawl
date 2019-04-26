@@ -4,3 +4,8 @@ body{
 p{
   color: yellow;
 }
+.crawl {
+  margin: auto;
+  width: 500px;
+  font-size: 30px;
+}
