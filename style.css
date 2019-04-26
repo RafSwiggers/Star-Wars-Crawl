@@ -4,6 +4,7 @@ body{
   perspective: 200px;
   color: yellow;
   text-align: center;
+  width: 50%;
 }
 
 .crawl {
