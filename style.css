@@ -1,20 +1,28 @@
-body{
-  background-image: url("./background.png");
-  font-family: "News Gothic";
-  perspective: 200px;
-  color: yellow;
-  text-align: center;
-  width: 50%;
+body {
+    /* Set the background to the star-wars background. */
+    background-image: url("./background.png");
+    font-family: "News Gothic";
+    /* Set the tilt so the text scrolls backwards*/
+    perspective: 200px;
+    color: yellow;
+    text-align: center;
+    width: 50%;
 }
 
 .crawl {
-  margin: auto;
-  width: 50%;
-  transform: rotateX(30deg);
-  animation: animateCrawl 20s ease-in;
+    margin: auto;
+    width: 50%;
+    /* This makes the animation run back and up, rather than just back*/
+    transform: rotateX(30deg);
+    animation: animateCrawl 20s ease-in;
 }
 
 @keyframes animateCrawl {
-  0% { transform: rotateX(30deg) translateY(400px); }
-  100% { transform: rotateX(30deg) translateY(-300px); }
- }
+    /* Actually animates the text*/
+    0% {
+        transform: rotateX(30deg) translateY(400px);
+    }
+    100% {
+        transform: rotateX(30deg) translateY(-300px);
+    }
+}
